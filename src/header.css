@@ -1,0 +1,97 @@
+
+/*-----Header Bereich-----*/
+
+#imageHeader{
+    width: 100vw;
+    height: 40%;
+
+    z-index: -10;
+    position: absolute;
+}
+
+.header{
+    margin-top: 8%;
+    width: 35%;
+    /* background: green; */
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.imgDark{
+    background-image: url(images/bg-desktop-dark.jpg);
+    width: 100vw;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgLigth{
+    background-image: url(images/bg-desktop-light.jpg);
+    width: 100vw;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+.sun{
+    background-image: url(images/icon-sun.svg);
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem;
+    background-position: center;
+    border-radius: 100%; 
+    padding: 3px;
+    margin: 3px;
+    
+}
+
+.moon{
+    background-image: url(images/icon-moon.svg);
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem;
+    background-position: center; 
+    border-radius: 50%;
+    padding: 3px;
+    margin: 3px;
+    
+}
+
+.sun:hover{
+    background-color: var(--sunBackground);
+    transform: scale(1.1); /* Vergrößert das Element um 10% */
+    transition: background-color 0.8s ease-in-out;
+    transition: scale(1.1) 0.8s ease-in-out;
+}
+
+
+.moon:hover{
+    background-color: var( --moonBackground);
+    transform: scale(1.1); /* Vergrößert das Element um 10% */
+    transition: background-color 0.8s ease-in-out;
+    transition: scale(1.1) 0.8s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="header.css">
+
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="ulList.css">
+    
+    <script src="toggle.js" defer></script>
+    <script src="todo.js" defer></script>
+    
+</head>
+
+
+<body class="layout bgDark dark" id="bg">
+    <div id="imageHeader" class="imgDark">
+
+    </div>
+
+<!-- Header -->
+    <div class="header ">
+            <H1 class="">T O D O</H1>
+            <div class="sun" id="sunMoonContainer"></div>
+    </div>
+
+
+
+
+<!-- ul list -->    
+    <ul class="ulList bgContainerDark">
+
+        <!-- ul Header -->  
+        <li class="listHeader">
+            <div class="conBtn">
+                
+            </div>
+            
+            <input  id="inputfild" type="text" placeholder="Create a new todo ..." style="color: white;">
+        </li>
+
+
+        <ul class="ulInnerList">
+            <!-- Hier kommt Todo -->  
+            <!-- <li class="todoContainer">  
+
+                <div class="conBtn2">
+                    <img src="images/icon-check.svg" alt="" class="listBtn">
+                </div>
+                <p class="todoContent"></p>
+                <img src="images/icon-cross.svg" alt="" class="crossBtn">
+            </li> -->
+        </ul>
+        
+        
+
+
+
+
+        <!-- Li Footer --> 
+        <li class="liFooter">
+            <div class="item">
+                (<span id="li-count">0</span>)
+              </div>
+
+            <div class="items">
+                <p id="showAll" class="hover">All</p>
+                <p id="showActive" class="hover">Active</p>
+                <p id="showCompleted" class="hover">Completed</p>
+            </div>
+
+            <div class="item" >
+                <p id="clear" class="hover">Clear Completed</p>
+            </div>
+        </li>
+
+
+
+    </ul>
+    
+
+
+
+    
+</body>
+
+</html>

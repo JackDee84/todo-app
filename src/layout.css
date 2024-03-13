@@ -1,0 +1,60 @@
+:root{
+
+    --btnBackground :rgb(151, 1, 231);
+
+    /*Darkmodus*/
+    --fontdarkprimaryColor : white;
+    --fontdarksecondColor : rgb(104, 108, 111);
+
+    --primaryDarkBackground : rgb(29, 29, 79);
+    --todoContainerBackground :rgb(39, 37, 60);
+    --sunBackground :rgba(237, 162, 41, 0.374);
+
+    /*Ligthmodus*/
+    --fontligthprimaryColor : rgb(0, 0, 0);
+    --fontligthsecondColor : rgb(39, 40, 41);
+    --todoContainerBackgroundLigth :rgb(76, 69, 150);
+    
+    --primaryLigthBackground : rgb(113, 83, 167);
+    --moonBackground :rgb(43, 43, 108);
+
+
+
+}
+
+.layout{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center; 
+}
+
+.bgDark{
+    background-color: var(--primaryDarkBackground);
+}
+.bgLigth{
+    background-color: var(--primaryLigthBackground);
+}
+
+
+
+.dark{
+    color: var(--fontdarkprimaryColor);
+    
+}
+
+
+.hover:hover{
+    
+    transform: scale(1.1); /* Vergrößert das Element um 10% */
+    transition: background-color 0.8s ease-in-out;
+    transition: scale(1.1) 0.8s ease-in-out;
+    color: rgb(151, 151, 168);
+}
